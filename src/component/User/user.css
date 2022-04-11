@@ -1,0 +1,35 @@
+#users{
+    background:whitesmoke ;
+    border: 1px solid mediumblue;
+    padding: 10px;
+    height: fit-content;
+    border-radius:15px
+}
+
+img{
+    height: 200px;
+    border: 1px solid aqua;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.nameHover {
+    text-align: center;
+    margin-bottom:0;
+    display: none;
+}
+
+.name {
+    text-align: center;
+    margin-top: 0;
+}
+
+.name:hover{
+    color: blue;
+}
+
+#userInfo {
+    margin-left: 20px;
+}
