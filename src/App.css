@@ -1,6 +1,17 @@
+*{
+    background: rgb(148, 204, 158);
+    margin: 0;
+    padding: 0;
+}
 #userParent{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
-    margin: 20px;
+    padding: 20px;
+}
+#addedInfo{
+    margin: 20px 0 0 20px;
+}
+#addedInfo li{
+    margin-left:20px;
 }

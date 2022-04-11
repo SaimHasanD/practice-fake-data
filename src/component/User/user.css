@@ -1,35 +1,57 @@
-#users{
-    background:whitesmoke ;
-    border: 1px solid mediumblue;
+#users {
+    background: rgb(148, 204, 158);
     padding: 10px;
     height: fit-content;
-    border-radius:15px
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 3px hsla(0, 0%, 0%, 0.2);
 }
 
-img{
+img {
     height: 200px;
     border: 1px solid aqua;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-} 
-
-.nameHover {
-    text-align: center;
-    margin-bottom:0;
-    display: none;
 }
 
 .name {
     text-align: center;
     margin-top: 0;
+    color: rgb(16, 16, 16);
 }
 
-.name:hover{
+.name:hover {
     color: blue;
 }
 
+.btnDiv {
+    text-align: center;
+    margin: 5px;
+}
+
+.btn {
+    margin: 0 15px;
+    padding: 5px 10px;
+    background: rgb(163, 219, 174);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px 1px hsla(0, 0%, 0%, 0.2);
+    color: rgb(16, 16, 16);
+}
+
+.btn:hover {
+    background: rgb(80, 80, 80);
+    color: rgb(163, 219, 174);
+}
+
+#about {
+    margin: 10px;
+    color: rgb(56, 56, 56);
+}
+
 #userInfo {
-    margin-left: 20px;
+    margin-left: 30px;
+    color: rgb(80, 80, 80);
 }
